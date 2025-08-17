@@ -716,12 +716,6 @@ private fun InfoCard(
             }
 
             InfoCardItem(
-                stringResource(R.string.home_device_model),
-                systemInfo.deviceModel,
-                icon = Icons.Default.PhoneAndroid,
-            )
-
-            InfoCardItem(
                 stringResource(R.string.home_manager_version),
                 "${systemInfo.managerVersion.first} (${systemInfo.managerVersion.second.toInt()})",
                 icon = Icons.Default.SettingsSuggest,
